@@ -62,7 +62,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
     pingTimeout: 60000,
     cors: {
-        origin: "localhost:3000/",
+        origin: "https://ac-chat.onrender.com",
         // credentials: true,
     },
 });
